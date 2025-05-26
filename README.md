@@ -36,7 +36,7 @@ Built with **Flask** (Python backend) and **React** (modern frontend), this tool
 |-----------------|-------------------------------------------|
 | **Frontend**    | React, Axios, Bootstrap, Chart.js         |
 | **Backend**     | Flask, Python                             |
-| **Scraping**    | Selenium, BeautifulSoup                   |
+| **Scraping**    | Selenium                                  |
 | **Analysis**    | TextBlob, NLTK                            |
 | **Data**        | CSV storage (lightweight solution)        |
 
