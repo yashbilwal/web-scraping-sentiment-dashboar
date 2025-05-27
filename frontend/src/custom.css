@@ -1,0 +1,28 @@
+/* custom.css */
+button {
+  font-size: 18px;
+  padding: 15px 30px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+.spinner-border {
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
