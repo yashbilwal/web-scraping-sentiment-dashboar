@@ -1,6 +1,9 @@
 # 🌟 Web Scraping & Sentiment Analysis Dashboard
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Web+Scraping+Sentiment+Dashboard)  
+| Image 1 | Image 2 | Image 3 |
+|---------|---------|---------|
+| ![HeroSection](start.png) | ![Dashboard](Dashboard.png) | ![Sentiment](Sentiment.png) |
+| *Caption for Image 1* | *Caption for Image 2* | *Caption for Image 3* |  
 *Interactive dashboard showing news sentiment analysis*
 
 ## 📌 Overview
