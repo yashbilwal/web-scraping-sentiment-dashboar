@@ -2,7 +2,7 @@
 
 | Image 1 | Image 2 | Image 3 |
 |---------|---------|---------|
-| ![HeroSection](start.png) | ![Dashboard](Dashboard.png) | ![Sentiment](Sentiment.png) |
+| ![HeroSection](start.png) | ![Dashboard](dashboard.png) | ![Sentiment](sentiment.png) |
 | *Caption for Image 1* | *Caption for Image 2* | *Caption for Image 3* |  
 *Interactive dashboard showing news sentiment analysis*
 
