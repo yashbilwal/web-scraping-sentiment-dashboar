@@ -14,27 +14,29 @@ function App() {
   const [showDashboard, setShowDashboard] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
 
-  const scrapeAndAnalyze = async () => {
-    setIsProcessing(true);
-    setLoading(true);
-    try {
-      await axios.get("http://127.0.0.1:5000/api/scrape");
-    } catch (err) {
-      console.error("Error during scraping:", err);
-    }
-  };
+const BASE_URL = "https://web-scraping-sentiment-dashboard.onrender.com";
 
-  const fetchSentimentData = async () => {
-    try {
-      const res = await axios.get("http://127.0.0.1:5000/api/sentiments");
-      setData(res.data);
-    } catch (error) {
-      console.error("Error fetching sentiment data", error);
-    } finally {
-      setLoading(false);
-      setIsProcessing(false);
-    }
-  };
+const scrapeAndAnalyze = async () => {
+  setIsProcessing(true);
+  setLoading(true);
+  try {
+    await axios.get(`${BASE_URL}/api/scrape`);
+  } catch (err) {
+    console.error("Error during scraping:", err);
+  }
+};
+
+const fetchSentimentData = async () => {
+  try {
+    const res = await axios.get(`${BASE_URL}/api/sentiments`);
+    setData(res.data);
+  } catch (error) {
+    console.error("Error fetching sentiment data", error);
+  } finally {
+    setLoading(false);
+    setIsProcessing(false);
+  }
+};
 
   const handleStart = async () => {
     setShowDashboard(true);
