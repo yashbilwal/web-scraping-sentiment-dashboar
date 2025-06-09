@@ -28,7 +28,7 @@ function Loader() {
             shape === 2 ? "polygon(50% 0%, 0% 100%, 100% 100%)" : "none"
         }}
       />
-      <p className="mt-3 text-muted">Preparing content...</p>
+      <p className="mt-3 text-muted">Assembling your content...</p>
     </div>
   );
 }
