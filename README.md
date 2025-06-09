@@ -1,6 +1,6 @@
 # 🌟 Web Scraping & Sentiment Analysis Dashboard
 
-| Image 1 | Image 2 | Image 3 |
+| Hero Page | Dashboard | Sentiment Analysis |
 |---------|---------|---------|
 | ![HeroSection](start.png) | ![Dashboard](dashboard.png) | ![Sentiment](sentiment.png) |
 
